@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    text-align: center;
+}
+form{
+    width: 300px;
+    margin: 40px auto;
+}
+.desc{
+    font-size: 13px;
+}
+.button:hover{
+    cursor: pointer;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    height: 5vh;
+}
+ul{
+    display:flex;
+    justify-content: space-around;
+}
+.menu, .loggedUser{
+    color: whitesmoke;
+}
+a{
+    text-decoration: none;
+}
+h1{
+    font-size: 40px;
+    margin-top: 40px;
+    color: black;
+}
